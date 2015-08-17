@@ -61,6 +61,10 @@ public class NASServer {
 	private ConcurrentMap<String, SentinelHeartBeatInfo> sentinelCheckMap = new ConcurrentHashMap<String, SentinelHeartBeatInfo>();
 	private IAlarmService alarmService;
 
+	public void test(){
+		System.out.println("Hello world");
+	}
+
 	public void setNasConfig(NasConfig nasConfig) {
 		this.nasConfig = nasConfig;
 	}
