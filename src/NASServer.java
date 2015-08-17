@@ -36,7 +36,6 @@ import com.netease.pomelo.agentservice.exception.PomeloClientNameException;
 import com.netease.pomelo.agentservice.exception.PomeloClientNotInitException;
 import com.netease.pomelo.agentservice.exception.PomeloClientNotRegisterException;
 
-@("compenent")
 public class NASServer {
 	private static final Logger logger = Logger.getLogger(NASServer.class);
 	private final int OK = 200;
