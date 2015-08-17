@@ -69,6 +69,10 @@ public class NASServer {
 		this.heartBeatHandle = heartBeatHandle;
 	}
 
+	public void test(){
+		System.out.println("hello world 1");
+	}
+
 	public void init() throws NCRException {
 		int rs = 0;
 		client = PomeloClient.getInstance();
